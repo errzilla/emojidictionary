@@ -56,8 +56,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="This is a broken house" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZbB-pR-a4v">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a broken house" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZbB-pR-a4v">
                                 <rect key="frame" x="99" y="323" width="171" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Category: House" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FZ4-Hy-Vbz">
+                                <rect key="frame" x="102" y="360" width="171" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Created:  2014 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4pB-vn-pUD">
+                                <rect key="frame" x="116" y="397" width="118" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -65,21 +77,27 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="FZ4-Hy-Vbz" firstAttribute="centerX" secondItem="lPR-OM-dxM" secondAttribute="centerX" id="7Pl-xP-d1w"/>
                             <constraint firstItem="Fwp-8t-BnY" firstAttribute="top" secondItem="8dT-us-Z2f" secondAttribute="top" constant="40" id="AyK-2X-aLG"/>
-                            <constraint firstItem="ZbB-pR-a4v" firstAttribute="top" secondItem="Fwp-8t-BnY" secondAttribute="bottom" constant="50" id="cU5-4S-NRF"/>
-                            <constraint firstItem="ZbB-pR-a4v" firstAttribute="centerX" secondItem="lPR-OM-dxM" secondAttribute="centerX" id="s3t-eg-247"/>
+                            <constraint firstItem="4pB-vn-pUD" firstAttribute="centerX" secondItem="lPR-OM-dxM" secondAttribute="centerX" id="F2U-QL-l5A"/>
+                            <constraint firstItem="FZ4-Hy-Vbz" firstAttribute="top" secondItem="ZbB-pR-a4v" secondAttribute="bottom" constant="20" id="SNi-ao-ZlO"/>
+                            <constraint firstItem="ZbB-pR-a4v" firstAttribute="top" secondItem="Fwp-8t-BnY" secondAttribute="bottom" constant="36" id="cU5-4S-NRF"/>
+                            <constraint firstItem="4pB-vn-pUD" firstAttribute="top" secondItem="FZ4-Hy-Vbz" secondAttribute="bottom" constant="20" id="e4H-BE-cSY"/>
+                            <constraint firstItem="ZbB-pR-a4v" firstAttribute="centerX" secondItem="lPR-OM-dxM" secondAttribute="centerX" constant="-3" id="s3t-eg-247"/>
                             <constraint firstItem="Fwp-8t-BnY" firstAttribute="centerX" secondItem="lPR-OM-dxM" secondAttribute="centerX" id="vTx-i4-ItT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8dT-us-Z2f"/>
                     </view>
                     <connections>
+                        <outlet property="CreatedLabel" destination="4pB-vn-pUD" id="QWa-UG-AMc"/>
+                        <outlet property="categoryLabel" destination="FZ4-Hy-Vbz" id="GQN-0B-gQb"/>
                         <outlet property="definitionLabel" destination="ZbB-pR-a4v" id="tyy-J7-reC"/>
                         <outlet property="emojiLabel" destination="Fwp-8t-BnY" id="sYz-mk-hO2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0xX-VD-5Mm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1590" y="34"/>
+            <point key="canvasLocation" x="1589.5999999999999" y="33.733133433283363"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="vgp-BX-8af">

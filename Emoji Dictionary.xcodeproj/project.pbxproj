@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		626679E320A89B2A003D9A77 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626679E220A89B2A003D9A77 /* Emoji.swift */; };
 		628CBAB320A5F93C0005EE0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628CBAB220A5F93C0005EE0A /* AppDelegate.swift */; };
 		628CBAB520A5F93C0005EE0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628CBAB420A5F93C0005EE0A /* ViewController.swift */; };
 		628CBAB820A5F93C0005EE0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 628CBAB620A5F93C0005EE0A /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		626679E220A89B2A003D9A77 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 		628CBAAF20A5F93C0005EE0A /* Emoji Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		628CBAB220A5F93C0005EE0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		628CBAB420A5F93C0005EE0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		628CBAA620A5F93C0005EE0A = {
 			isa = PBXGroup;
 			children = (
+				626679E220A89B2A003D9A77 /* Emoji.swift */,
 				628CBAB120A5F93C0005EE0A /* Emoji Dictionary */,
 				628CBAB020A5F93C0005EE0A /* Products */,
 			);
@@ -140,6 +143,7 @@
 			files = (
 				628CBAB520A5F93C0005EE0A /* ViewController.swift in Sources */,
 				628CBAC520A614190005EE0A /* DefinitionViewController.swift in Sources */,
+				626679E320A89B2A003D9A77 /* Emoji.swift in Sources */,
 				628CBAB320A5F93C0005EE0A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
